@@ -5,18 +5,13 @@ import java.util.Scanner;
 public class StringsIntro {
 
 	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		String s2 = sc.nextLine();
-		String s1 = sc.next();
-		
-		String s = "hello";
+	
+		String s = "coding maxima";
 		
 		for(int i = 0; i < s.length(); i++) {
 			
-			
-			System.out.println((int)s.charAt(i));
+			char c = s.charAt(i);
+			System.out.println("Character " + i + " = " + c);
 		}
 	}
 }

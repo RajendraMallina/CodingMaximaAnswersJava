@@ -13,10 +13,10 @@ public class ElseIfLader {
 			System.out.println("The value is less than 20 -> " + value);
 			
 		}else if(value < 30) {
-			System.out.println("The value is less than 10 -> " + value);
+			System.out.println("The value is less than 30 -> " + value);
 			
 		}else if(value < 40) {
-			System.out.println("The value is less than 10 -> " + value);
+			System.out.println("The value is less than 40 -> " + value);
 			
 		}else {
 			System.out.println("The vlaue is grater than or equal to 40 -> " + value);

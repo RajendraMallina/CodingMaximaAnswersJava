@@ -15,7 +15,7 @@ public class DifferentCharCount {
 				System.out.println(ch + " is Letters");
 				charCount++;
 
-			} else if (ch >= 47 && ch <= 57) {
+			} else if (ch >= 48 && ch <= 57) {
 				System.out.println(ch + " is Numbers");
 				numCount++;
 			}else {
