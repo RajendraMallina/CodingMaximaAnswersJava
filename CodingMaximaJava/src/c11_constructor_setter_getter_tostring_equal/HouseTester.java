@@ -1,4 +1,4 @@
-package c11_constructor_setter_getter_tostring_equal;
+ package c11_constructor_setter_getter_tostring_equal;
 
 public class HouseTester {
 
