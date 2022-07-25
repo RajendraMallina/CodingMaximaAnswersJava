@@ -5,15 +5,15 @@ import java.util.Objects;
 public class City {
 
 	private String name;
-	private String conuntry;
-	private long papulation;
+	private String country;
+	private long population;
 	
 	public City() {}
 
-	public City(String name, String conuntry, long papulation) {
+	public City(String name, String country, long population) {
 		this.name = name;
-		this.conuntry = conuntry;
-		this.papulation = papulation;
+		this.country = country;
+		this.population = population;
 	}
 
 	public String getName() {
@@ -24,25 +24,25 @@ public class City {
 		this.name = name;
 	}
 
-	public String getConuntry() {
-		return conuntry;
+	public String getCountry() {
+		return country;
 	}
 
-	public void setConuntry(String conuntry) {
-		this.conuntry = conuntry;
+	public void setCountry(String country) {
+		this.country = country;
 	}
 
-	public long getPapulation() {
-		return papulation;
+	public long getPopulation() {
+		return population;
 	}
 
-	public void setPapulation(long papulation) {
-		this.papulation = papulation;
+	public void setPopulation(long population) {
+		this.population = population;
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(conuntry);
+		return Objects.hash(country);
 	}
 
 	@Override
@@ -54,11 +54,11 @@ public class City {
 		if (getClass() != obj.getClass())
 			return false;
 		City other = (City) obj;
-		return Objects.equals(conuntry, other.conuntry);
+		return Objects.equals(country, other.country);
 	}
 
 	@Override
 	public String toString() {
-		return "City [name=" + name + ", conuntry=" + conuntry + ", papulation=" + papulation + "]";
+		return "City [name=" + name + ", country=" + country + ", population=" + population + "]";
 	}	
 }

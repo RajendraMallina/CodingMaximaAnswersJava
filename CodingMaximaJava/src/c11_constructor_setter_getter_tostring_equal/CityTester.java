@@ -7,8 +7,8 @@ public class CityTester {
 		City newYork = new City("New York", "United States", 8300000);
 		City vizag = new City();
 		vizag.setName("Vizag");
-		vizag.setConuntry("India");
-		vizag.setPapulation(200000000);
+		vizag.setCountry("India");
+		vizag.setPopulation(200000000);
 		
 		System.out.println(newYork);
 		System.out.println(vizag);
