@@ -43,5 +43,4 @@ public class Branch {
 	public String toString() {
 		return "Branch [id=" + id + ", bname=" + bname + ", maxSeats=" + maxSeats + "]";
 	}	
-
 }

@@ -4,17 +4,14 @@ public class Student {
 
 	private int id;
 	private String name;
-	private String gender;
-	private String grade;
 	private Branch branch;
 	
 	public Student() {}
-	
-	public Student(int id, String name, String gender, String grade, Branch branch) {
+
+	public Student(int id, String name, Branch branch) {
+		super();
 		this.id = id;
 		this.name = name;
-		this.gender = gender;
-		this.grade = grade;
 		this.branch = branch;
 	}
 
@@ -34,27 +31,16 @@ public class Student {
 		this.name = name;
 	}
 
-	public String getGender() {
-		return gender;
+	public Branch getBranch() {
+		return branch;
 	}
 
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
-
-	public String getGrade() {
-		return grade;
-	}
-
-	public void setGrade(String grade) {
-		this.grade = grade;
+	public void setBranch(Branch branch) {
+		this.branch = branch;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", gender=" + gender + ", grade=" + grade + ", branch=" + branch
-				+ "]";
+		return "Student [id=" + id + ", name=" + name + ", branch=" + branch + "]";
 	}
-
-	
 }
