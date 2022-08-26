@@ -3,16 +3,16 @@ package c10_objectrelation;
 public class Branch {
 	
 	private int id;
-	private String bname;
-	private int maxSeats;
+	private String name;
+	private int maxCapacity;
 	
 	public Branch() {}
 	
-	public Branch(int id, String bname, int maxSeats) {
+	public Branch(int id, String name, int maxCapacity) {
 	
 		this.id = id;
-		this.bname = bname;
-		this.maxSeats = maxSeats;
+		this.name = name;
+		this.maxCapacity = maxCapacity;
 	}
 
 	public int getId() {
@@ -24,23 +24,23 @@ public class Branch {
 	}
 
 	public String getBname() {
-		return bname;
+		return name;
 	}
 
-	public void setBname(String bname) {
-		this.bname = bname;
+	public void setBname(String name) {
+		this.name = name;
 	}
 
 	public int getMaxSeats() {
-		return maxSeats;
+		return maxCapacity;
 	}
 
-	public void setMaxSeats(int maxSeats) {
-		this.maxSeats = maxSeats;
+	public void setMaxSeats(int maxCapacity) {
+		this.maxCapacity = maxCapacity;
 	}
 
 	@Override
 	public String toString() {
-		return "Branch [id=" + id + ", bname=" + bname + ", maxSeats=" + maxSeats + "]";
+		return "Branch [id=" + id + ", name=" + name + ", maxCapacity=" + maxCapacity + "]";
 	}	
 }
