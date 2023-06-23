@@ -4,7 +4,7 @@ public class Patteran05 {
     public static void main(String args[]) {
         int n = 4;
 
-        for (int i = n; i >= 1; i--) {
+        for (int i = n; i > 0; i--) {
 
             // inner loop to print spaces.
             for (int j = 1; j < i; j++) {
