@@ -1,6 +1,6 @@
 package c02_patterns;
 
-public class Patteran04 {
+public class Pattern15 {
     public static void main(String args[]) {
         int n = 4;
 
@@ -13,8 +13,8 @@ public class Patteran04 {
             }
 
             // inner loop to print stars.
-            for (int k = 0; k < i; k++) {
-                System.out.print("*");
+            for (int k = i; k >= 1; k--) {
+                System.out.print(k);
             }
 
             // printing new line for each row
