@@ -1,6 +1,6 @@
 package c02_patterns;
 
-public class Pattern001 {
+public class Pattern0001 {
 
 	public static void main(String[] args) {
 		

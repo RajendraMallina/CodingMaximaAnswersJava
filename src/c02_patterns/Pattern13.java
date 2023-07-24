@@ -1,20 +1,20 @@
 package c02_patterns;
 
-public class Patteran15 {
+public class Pattern13 {
     public static void main(String args[]) {
         int n = 4;
 
         // outer loop to handle rows
-        for (int i = n; i > 0; i--) {
+        for (int i = 0; i < n; i++) {
 
             // inner loop to print spaces.
-            for (int j = 0; j < n - i; j++) {
+            for (int j = 1; j < n - i; j++) {
                 System.out.print(" ");
             }
 
-            // inner loop to print numbers.
-            for (int k = i; k >= 1; k--) {
-                System.out.print(k);
+            // inner loop to print stars.
+            for (int k = 0; k <= i; k++) {
+                System.out.print(k + 1);
             }
 
             // printing new line for each row
