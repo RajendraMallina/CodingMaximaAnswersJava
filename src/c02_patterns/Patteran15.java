@@ -12,7 +12,7 @@ public class Patteran15 {
                 System.out.print(" ");
             }
 
-            // inner loop to print stars.
+            // inner loop to print numbers.
             for (int k = i; k >= 1; k--) {
                 System.out.print(k);
             }
